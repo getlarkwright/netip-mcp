@@ -68,6 +68,6 @@ export function renderPublicIp(r) {
     lines.push(`  Network     ASN lookup unavailable`);
   }
   if (r.warp) lines.push(``, `Cloudflare WARP is on — this is the WARP egress address, not your ISP's.`);
-  lines.push(``, `This is the address as seen from outside your network. Inbound reachability on a port needs a test from outside too: https://whatismynetip.com/port-checker/`);
+  lines.push(``, `This is the address as seen from outside your network. Inbound reachability on a port needs a test from outside too.`);
   return lines.join("\n");
 }
