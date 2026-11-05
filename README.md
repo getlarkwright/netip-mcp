@@ -14,7 +14,7 @@ Pin the version.
 **Claude Code**
 
 ```
-claude mcp add netip -- npx -y github:labaccessnow/netip-mcp#v0.1.0
+claude mcp add netip -- npx -y github:getlarkwright/netip-mcp#v0.1.1
 ```
 
 **Claude Desktop, Cursor, or any client with a JSON config**
@@ -24,7 +24,7 @@ claude mcp add netip -- npx -y github:labaccessnow/netip-mcp#v0.1.0
   "mcpServers": {
     "netip": {
       "command": "npx",
-      "args": ["-y", "github:labaccessnow/netip-mcp#v0.1.0"]
+      "args": ["-y", "github:getlarkwright/netip-mcp#v0.1.1"]
     }
   }
 }
@@ -37,13 +37,13 @@ claude mcp add netip -- npx -y github:labaccessnow/netip-mcp#v0.1.0
   "mcpServers": {
     "netip": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "ghcr.io/labaccessnow/netip-mcp:0.1.0"]
+      "args": ["run", "-i", "--rm", "ghcr.io/getlarkwright/netip-mcp:0.1.1"]
     }
   }
 }
 ```
 
-Node 18 or newer for the npx route. Also in the official MCP registry as `io.github.labaccessnow/netip-mcp`.
+Node 18 or newer for the npx route. Also in the official MCP registry as `io.github.getlarkwright/netip-mcp`.
 
 ## Tools
 
@@ -96,5 +96,5 @@ The port data and the calculators are the same ones the site uses, so the two st
 
 ## Licence
 
-MIT. Written by James Son — network, security, and automation engineer. Corrections and additions to the
+MIT © Larkwright LLC. Written by James Son — network, security, and automation engineer. Corrections and additions to the
 port write-ups are welcome.

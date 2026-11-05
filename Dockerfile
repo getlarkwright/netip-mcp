@@ -1,8 +1,8 @@
 # Minimal image for clients that prefer to run the server in a container.
 FROM node:22-alpine
 
-LABEL io.modelcontextprotocol.server.name="io.github.labaccessnow/netip-mcp"
-LABEL org.opencontainers.image.source="https://github.com/labaccessnow/netip-mcp"
+LABEL io.modelcontextprotocol.server.name="io.github.getlarkwright/netip-mcp"
+LABEL org.opencontainers.image.source="https://github.com/getlarkwright/netip-mcp"
 LABEL org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app

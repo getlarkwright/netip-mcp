@@ -132,7 +132,7 @@ const TOOLS = [
   },
 ];
 
-const server = new Server({ name: "netip", version: "0.1.0" }, { capabilities: { tools: {} } });
+const server = new Server({ name: "netip", version: "0.1.1" }, { capabilities: { tools: {} } });
 
 server.setRequestHandler(ListToolsRequestSchema, async () => ({
   tools: TOOLS.map(({ name, description, inputSchema }) => ({ name, description, inputSchema })),

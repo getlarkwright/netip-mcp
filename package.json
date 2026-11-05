@@ -1,16 +1,16 @@
 {
   "name": "netip-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The whatismynetip.com toolbox as MCP tools: subnet math, port and MAC lookups, DNS, DNSBL, TLS certificate inspection, public IP. No account, no telemetry.",
   "license": "MIT",
-  "author": "James Son",
+  "author": "Larkwright LLC",
   "homepage": "https://whatismynetip.com/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/labaccessnow/netip-mcp.git"
+    "url": "git+https://github.com/getlarkwright/netip-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/labaccessnow/netip-mcp/issues"
+    "url": "https://github.com/getlarkwright/netip-mcp/issues"
   },
   "type": "module",
   "bin": {
@@ -26,8 +26,22 @@
     "node": ">=18"
   },
   "keywords": [
-    "mcp", "model-context-protocol", "mcp-server", "subnet-calculator", "cidr", "ipv6", "dns", "dns-over-https",
-    "dnsbl", "tls", "ssl-certificate", "mac-address", "oui", "port-lookup", "network-tools", "claude"
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "subnet-calculator",
+    "cidr",
+    "ipv6",
+    "dns",
+    "dns-over-https",
+    "dnsbl",
+    "tls",
+    "ssl-certificate",
+    "mac-address",
+    "oui",
+    "port-lookup",
+    "network-tools",
+    "claude"
   ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0"
